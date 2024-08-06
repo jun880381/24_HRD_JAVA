@@ -16,7 +16,7 @@ public class VarTest5 {
 		int i = sc.nextInt();
 		int j = sc.nextInt();		
 		
-		// 3. 더하기면 덧셈, 빼기면 뺄셈
+		// 3. 기호에 맞는 연산 실행
 		int result = 0;
 		if (math.equals("+")) {
 			result = i+j;
