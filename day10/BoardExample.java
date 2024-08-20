@@ -41,6 +41,7 @@ public class BoardExample {
 	
 	public BoardExample() {
 		dm = new DataModel();
+		ur = new UserRegister();
 	}
 	
 	public void mainMenu() throws Exception {
@@ -66,7 +67,7 @@ public class BoardExample {
 			dm.exit();
 			break;
 		case "5" :
-			ur.Register();
+			ur.UserCreate();
 			break;
 		}
 	}
